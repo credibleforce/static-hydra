@@ -38,8 +38,8 @@ RUN git clone https://github.com/vanhauser-thc/thc-hydra /src
 RUN set -x \
     && apt-get update \
     && apt-get -y install \
-        #libmysqlclient-dev \
-        default-libmysqlclient-dev \
+        # libmysqlclient-dev \
+        # default-libmysqlclient-dev \
         libgpg-error-dev \
         #libmemcached-dev \
         #libgcrypt11-dev \
